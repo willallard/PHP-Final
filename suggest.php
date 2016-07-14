@@ -1,11 +1,11 @@
 <?php 
 $pageTitle = "Suggest a Media Item";
+$section = "suggest";
 
 include("inc/header.php"); ?>
-      
-      <!-- Content -->
-      <div class="container">
-          
-      </div> 
-      
+
+<div class="container">
+    <h1>Suggest a Media Item</h1>
+</div>
+
 <?php include("inc/footer.php"); ?>
