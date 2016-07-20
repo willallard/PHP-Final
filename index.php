@@ -9,12 +9,15 @@ include("inc/header.php");
       <div class="container">
           
 
-
- 
-
-
-
 <div class="row">
+<div class="col-md-6 col-md-offset-3">
+<h1 class="text-center"><strong>HERE ARE SOME SHAPES</strong></h1>
+<h5 class=text-center>THEY ARE COMING FROM A DATABASE</h5>
+</div> 
+
+
+
+
 
 <?php 
     include("connection.php");
@@ -25,10 +28,10 @@ include("inc/header.php");
         ."' alt=' " 
         . $item["shape"] 
         . "' /> </div>
-        <br><div class='col-md-6 col-md-offset-3 text-center'> " 
+        <div class='col-md-6 col-md-offset-3 text-center'> " 
         . $item["color"]
         . " </div>
-        <br><div class ='col-md-6 col-md-offset-3 text-center'> " 
+        <div class ='col-md-6 col-md-offset-3 text-center'> " 
         . $item["shape"]
         . " </div>";
 } ?>
@@ -39,6 +42,8 @@ include("inc/header.php");
 
 
 
+
+<h1 class="text-center bottompush"><strong>HOW COOL IS THAT?!</strong></h1>
 
 
 
