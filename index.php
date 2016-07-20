@@ -14,23 +14,26 @@ include("inc/header.php");
 
 
 
+<div class="row">
 
-<ul>
 <?php 
     include("connection.php");
+        
     foreach ($MyShapes as $item) {
-    echo "<li><img class='image' src='img/media/"
+    echo "<div class='col-md-6 col-md-offset-3 img-responsive text-center'> <img class='image' src='img/media/"
         .$item["image"]
-        ."' alt='" 
+        ."' alt=' " 
         . $item["shape"] 
-        . "' /> <br> <div class='name'>" 
+        . "' /> </div>
+        <br><div class='col-md-6 col-md-offset-3 text-center'> " 
         . $item["color"]
-        . " </div><br><div class='content'>" 
+        . " </div>
+        <br><div class ='col-md-6 col-md-offset-3 text-center'> " 
         . $item["shape"]
-        . "</div> </li>";
+        . " </div>";
 } ?>
 
-</ul>
+          </div>
 
 
 

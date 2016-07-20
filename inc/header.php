@@ -11,6 +11,7 @@
     <link href="bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
       
     <!-- Custom CSS -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>  
     <link href="css/style.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -31,14 +32,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.php">SHEET MUSIC</a>
+          <a class="navbar-brand" href="index.php"><strong>PHP</strong></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="catalog.php?cat=books">Books</a></li>
-            <li><a href="catalog.php?cat=movies">Movies</a></li>
-            <li><a href="catalog.php?cat=music">Music</a></li>
-            <li><a href="suggest.php">Suggest</a></li>
+            <li><a href="catalog.php?cat=books">TAB 1</a></li>
+            <li><a href="catalog.php?cat=movies">TAB 2</a></li>
+            <li><a href="catalog.php?cat=music">TAB 3</a></li>
+            <li><a href="suggest.php">MAILING LIST</a></li>
             
           </ul>
           <ul class="nav navbar-nav navbar-right">
