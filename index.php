@@ -1,5 +1,5 @@
 <?php 
-$pageTitle = "Personal Media Library";
+$pageTitle = "PHP FINAL PROJECT";
 
 include("inc/header.php");
 
