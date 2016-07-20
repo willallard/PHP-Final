@@ -36,10 +36,10 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="catalog.php?cat=books">TAB 1</a></li>
-            <li><a href="catalog.php?cat=movies">TAB 2</a></li>
-            <li><a href="catalog.php?cat=music">TAB 3</a></li>
-            <li><a href="suggest.php">MAILING LIST</a></li>
+            <li><a href="catalog.php?cat=tab1">TAB 1</a></li>
+            <li><a href="catalog.php?cat=tab2">TAB 2</a></li>
+            <li><a href="catalog.php?cat=tab3">TAB 3</a></li>
+            <li><a href="form.php">CONTACT</a></li>
             
           </ul>
           <ul class="nav navbar-nav navbar-right">
