@@ -7,7 +7,7 @@ try {
     $conn = new PDO("mysql:host=$servername;dbname=shapes", $username, $password);
     // set the PDO error mode to exception
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    echo "Connected successfully"; 
+   
     }
 catch(PDOException $e)
     {
@@ -15,14 +15,14 @@ catch(PDOException $e)
     }
 
 try {
-    $results = $conn->query("SELECT shape, color FROM MyShapes");
-    echo "Retrieved Results";
+    $results = $conn->query("SELECT shape, color, image FROM MyShapes");
+    
 }   catch (Exception $e) {
     echo "no";
     exit;
 }
 
-var_dump($results);
+$MyShapes = $results->fetchAll();
 
 
 ?>
